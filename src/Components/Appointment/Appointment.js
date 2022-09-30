@@ -9,7 +9,7 @@ const Appointment = () => {
     const onSubmit = data => {
 
 
-        const url = `http://localhost:5000/appointment`;
+        const url = `https://book-appointment-server.onrender.com/appointment`;
         fetch(url, {
             method: 'POST',
             headers: {
