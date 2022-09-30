@@ -6,6 +6,7 @@ import Appointment from './Components/Appointment/Appointment';
 function App() {
   return (
     <div>
+      <ToastContainer />
       <Appointment />
 
     </div>
